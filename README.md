@@ -46,10 +46,10 @@ Quans aims to create a space where users can create pages for specific topics, a
 - [Include instructions for deploying the project in a production environment]
 
 ## Technology Stack
-- Front-end: [List front-end technologies]
-- Back-end: [List back-end technologies]
-- Database: [Specify database used]
-- [Include any other relevant technologies]
+- **Front-end:** React
+- **Back-end:** Node.js
+- **Database:** MongoDB with Mongoose
+- [Include any other relevant technologies or libraries used in your project]
 
 ## Contributing
 We welcome contributions from the community. To contribute to Quans, please follow our [contribution guidelines](CONTRIBUTING.md).
