@@ -1,4 +1,4 @@
-# Quans - Your Project Name
+# Quans
 
 ## Overview
 Quans is a web platform designed to facilitate discussions on specific topics within communities and answer random questions posted by users. This README provides essential information for developers and contributors to understand the project structure and contribute effectively.
