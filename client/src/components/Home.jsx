@@ -9,6 +9,9 @@ return (
     </header>
     <main>
     <p>Welcome to my simple React home page! This is a basic example of a React project.</p>
+    <p>Welcome to my simple React home page! This is a basic example of a React project.</p>
+    <p>Welcome to my simple React home page! This is a basic example of a React project.</p>
+    <p>Welcome to my simple React home page! This is a basic example of a React project.</p>
     <div>
     <Link to="/login">Login</Link>
     </div>
