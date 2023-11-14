@@ -31,12 +31,14 @@ Quans aims to create a space where users can create pages for specific topics, a
 
 ## Getting Started
 ### Prerequisites
-- [List any prerequisites or dependencies required for the project]
+Run :`npm install` for client and server folder in the terminal
 
 ### Installation
 1. Clone the repository: `git clone https://github.com/your-username/quans.git`
 2. Navigate to the project directory: `cd quans`
-3. [Add any additional installation steps]
+3. Navigate to the server and run :`npm install` repeat same with the client folder
+4. To strat the client run:`npm start`
+5. To run the server run:`npm start`
 
 ## Usage
 ### Development
@@ -53,6 +55,9 @@ Quans aims to create a space where users can create pages for specific topics, a
 
 ## Contributing
 We welcome contributions from the community. To contribute to Quans, please follow our [contribution guidelines](CONTRIBUTING.md).
+1. Fork this repository
+2. Create a new branch and make the necessary changes
+3. Push and create a pull request
 
 ## License
 This project is licensed under the [License Name] - see the [LICENSE.md](LICENSE.md) file for details.
