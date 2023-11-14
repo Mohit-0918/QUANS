@@ -1,16 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
+import "../CSS/Home.css"
 const Home= () => {
 return (
 <div>
     <header>
-    <h1>My Simple React Home Page</h1>
+    <h1>Quans</h1>
     </header>
     <main>
-    <p>Welcome to my simple React home page! This is a basic example of a React project.</p>
-    <p>Welcome to my simple React home page! This is a basic example of a React project.</p>
-    <p>Welcome to my simple React home page! This is a basic example of a React project.</p>
     <p>Welcome to my simple React home page! This is a basic example of a React project.</p>
     <div>
     <Link to="/login">Login</Link>
