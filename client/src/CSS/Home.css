@@ -1,3 +1,20 @@
 h1{
     color: aqua;
 }
+header{
+    position: relative;
+}
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: aqua; 
+}
+main{
+    margin-top: 0;
+    padding: 160px 0px 100px 0px;
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

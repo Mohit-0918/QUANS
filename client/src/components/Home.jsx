@@ -1,20 +1,15 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import "../CSS/Home.css"
+
+import { NavBar } from './NavBar';
 const Home= () => {
 return (
 <div>
     <header>
-    <h1>Quans</h1>
+    <NavBar id="navbar"/>    
     </header>
     <main>
-    <p>Welcome to my simple React home page! This is a basic example of a React project.</p>
-    <div>
-    <Link to="/login">Login</Link>
-    </div>
-    <div>
-        <Link to="/signup">Sign Up</Link>
-    </div>
+    
     </main>
 </div>
 );
