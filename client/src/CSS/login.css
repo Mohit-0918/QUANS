@@ -2,33 +2,37 @@
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background: url('https://images.pexels.com/photos/2008145/pexels-photo-2008145.jpeg') no-repeat center center fixed;
+    /* background: url('https://images.pexels.com/photos/2008145/pexels-photo-2008145.jpeg') no-repeat center center fixed; */
     background-size: cover;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    background-color: #EEEEEE;
 }
 
 #login-container {
     background: rgba(255, 255, 255, 0.8);
-    padding: 5%;
+    padding: 4%;
     border-radius: 20px;
     text-align: center;
     max-width: 300px;
     width: 100%; 
+    border: 2px solid #176b87;
 }
 
 input {
     width: 100%;
     padding: 10px;
-    margin: 20px 0;
+    margin: 5px 0;
     box-sizing: border-box;
+    border-radius: 10px;
+    border: 1px solid;
 }
 
 button {
-    background-color: #4CAF50;
+    background-color: #176b87;;
     color: white;
     padding: 15px;
     border: none;
@@ -36,4 +40,16 @@ button {
     cursor: pointer;
     font-size: 16px;
     margin-top:20px
+}
+
+button:hover{
+    background-color: white;
+    border:1px solid #176b87;
+    color: #176b87;
+}
+
+.my--heading{
+    color: #053b50;
+    margin-top: 0px;
+    margin-bottom: 15px;
 }

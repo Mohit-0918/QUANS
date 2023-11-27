@@ -11,7 +11,7 @@ const [password,setPassword]=useState("")
 const history = useNavigate();
 const handleSubmit=(e)=>{
     e.preventDefault()
-    axios.post('https://quans.onrender.com/signup',{name,username,email,password})
+    axios.post('http://localhost:3001/signup',{name,username,email,password})
     .then(result=>{
         window.alert("Signup successful!"); 
         history("/login");
@@ -24,7 +24,7 @@ const handleSubmit=(e)=>{
     return(
         <div id="body">
         <div id="login-container">
-        <h1>Signup</h1>
+        <h1 className="my--heading">Signup</h1>
             <hr/>
             <form onSubmit={handleSubmit}>
             <label htmlFor="Name">Name:</label> 

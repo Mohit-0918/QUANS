@@ -1,75 +1,10 @@
-/*DEFAULT CSS*/
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+.App {
+  text-align: center;
 }
 
-html {
-  scroll-behavior: smooth;
-  scroll-padding-top: 75px;
-}
-
-body {
-  font-weight: 400;
-  overflow-x: hidden;
-  position: relative;
-  background-color: #EEEEEE !important;
-  color: #fff !important;
-  font-family: 'Centra', sans-serif !important;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  margin: 0;
-  padding: 0;
-  line-height: normal;
-}
-
-p, a, li, button, ul {
-  margin: 0;
-  padding: 0;
-  line-height: normal;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: none;
-}
-
-img {
-  width: 100%;
-  height: auto;
-}
-
-button {
-  border: 0;
-  background-color: transparent;
-}
-
-input:focus, textarea:focus, select:focus {
-  outline: none;
-}
-
-@media (min-width:1700px) {
-	main .container {
-		max-width: 100%;
-		padding: 0 150px;
-	}
-}
-
-p.success {
-	color: green;
-}
-
-p.danger {
-	color: red;
-}
-
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
 }
 
 .App-header {
@@ -87,11 +22,3 @@ p.danger {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

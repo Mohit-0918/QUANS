@@ -1,20 +1,90 @@
 h1{
     color: aqua;
 }
-header{
-    position: relative;
+.nav--contianer{
+    padding: 0px 30px 0px 30px;
+    display: flex;
+    justify-content: space-between;
+    /* border-bottom: 1px solid #ababe8; */
+    background-color: #eeeeee;
 }
-#navbar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: aqua; 
+
+.btns{
+    display: flex;
+    column-gap: 15px;
 }
-main{
-    margin-top: 0;
-    padding: 160px 0px 100px 0px;
-    background-position: top center;
-    background-size: cover;
-    background-repeat: no-repeat;
+
+.btns>button{
+    color: red;
+    background-color: white;
+    height: 54px;
+    text-decoration: none;
+}
+.login--btn{
+    border:1px solid blue;
+    background-color: white;
+    color: black;
+}
+
+.signup--btn{
+    /* background-color:#1b75d0;
+    color:white; */
+}
+
+.signup--btn:hover{
+    background-color:#1b75d0 !important;
+    
+}
+
+.login--btn:hover{
+    background-color: #3a87d5;
+    color: white;
+}
+
+
+
+/* ---------------------------------------------------------------------------- */
+
+.middle--itm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* column-gap: 14px; */
+    margin-left: -540px;
+}
+
+
+.middle--questions,.middle--about, .middle--home{
+    text-decoration: none;
+    font-weight: 400;
+    color: #176B87 !important;
+    letter-spacing: 0.8px;
+    padding: 0 25px;
+    font-size: 18px;
+}
+
+.app--logo{
+    height: 22vmin;
+}
+
+.right--logo--container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo--quans{
+    font-size: 1.5rem;
+    color: #176B87;
+    font-weight: bold;
+    /* margin-top: 5px; */
+    
+}
+
+.app--logo{
+    margin-top: 5px;
+    margin-bottom: -5px;
+    height: 10vmin;
+    vertical-align: middle;
 }

@@ -4,7 +4,6 @@ import Home from './components/Home';
 import Signup from './components/Signup';
 import Login from './components/Login';
 
-
 function App() {
   return (
     <div className="App">
