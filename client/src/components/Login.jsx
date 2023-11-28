@@ -12,7 +12,7 @@ const Login =()=>{
     const [password,setPassword]=useState();
     const handleSubmit=(e)=>{
         e.preventDefault()
-        axios.post('https://quans.onrender.com/login',{username,password})
+        axios.post('http://localhost:3001/login',{username,password})
         .then(result=>{
             console.log(result)
             if(result.data==="Success"){
@@ -27,7 +27,7 @@ const Login =()=>{
     return(
         <div id="body">
         <div id="login-container">
-        <h1>Login</h1>
+        <h1 className="my--heading">Login</h1>
             <hr/>
             <form onSubmit={handleSubmit}>
             <label htmlFor="username">Username:</label> 
